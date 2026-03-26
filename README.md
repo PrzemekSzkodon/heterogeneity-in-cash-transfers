@@ -1,2 +1,2 @@
 # heterogeneity-in-cash-transfers
-We apply causal machine learning to the Banerjee et al (2015) 'A multifaceted program causes lasting progress for the very poor: Evidence from six countries' study
+We apply causal machine learning to the Haushofer and Shapiro (2016) 'THE SHORT-TERM IMPACT OF UNCONDITIONAL CASH TRANSFERS TO THE POOR: EXPERIMENTAL EVIDENCE FROM KENYA' study
