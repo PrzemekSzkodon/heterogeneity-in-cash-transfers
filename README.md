@@ -10,7 +10,7 @@ conda env create -f environment.yml
 conda activate causal_ml
 
 ## Running
-Run all cells in order. Figures save to output/ automatically.
+Run all cells in main.ipynb in order. Figures save to output/ automatically.
 
 ## Structure
 1. Data preparation
