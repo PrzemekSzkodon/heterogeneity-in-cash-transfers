@@ -7,10 +7,10 @@ Place in a folder called dataverse_files/ in the same directory as the notebook.
 
 ## Environment
 conda env create -f environment.yml
-conda activate econometrics
+conda activate causal_ml
 
 ## Running
-Run all cells in order. Figures save to figures/ automatically.
+Run all cells in order. Figures save to output/ automatically.
 
 ## Structure
 1. Data preparation
@@ -20,5 +20,5 @@ Run all cells in order. Figures save to figures/ automatically.
 5. Post-selection ATE estimation
 6. Honest causal forest
 7. BLP, GATEs and CLAN
-8. OLS of tau_hat on X
-9. Policy trees
+8. OLS of tau_hat on X (not included in D300 report)
+9. Policy trees (not included in D300 report)
