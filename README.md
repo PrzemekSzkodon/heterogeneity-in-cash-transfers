@@ -1,2 +1,24 @@
-# heterogeneity-in-cash-transfers
-We apply causal machine learning to the Haushofer and Shapiro (2016) 'THE SHORT-TERM IMPACT OF UNCONDITIONAL CASH TRANSFERS TO THE POOR: EXPERIMENTAL EVIDENCE FROM KENYA' study
+# D300 Project — Haushofer & Shapiro (2016)
+
+## Data
+Download UCT_FINAL_CLEAN.dta from Harvard Dataverse:
+https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/M2GAZN
+Place in a folder called dataverse_files/ in the same directory as the notebook.
+
+## Environment
+conda env create -f environment.yml
+conda activate econometrics
+
+## Running
+Run all cells in order. Figures save to figures/ automatically.
+
+## Structure
+1. Data preparation
+2. Randomisation validation
+3. Baseline balance
+4. ANCOVA benchmark ATE
+5. Post-selection ATE estimation
+6. Honest causal forest
+7. BLP, GATEs and CLAN
+8. OLS of tau_hat on X
+9. Policy trees
